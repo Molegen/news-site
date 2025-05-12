@@ -54,6 +54,14 @@ article img {
     object-fit: cover;
 }
 
+article:nth-child(even) {
+    background: rgb(0, 255, 50);
+}
+
+.new-news::before {
+content: "New ";
+}
+
 footer {
     padding-top: 20px;
     padding-bottom: 60px;
